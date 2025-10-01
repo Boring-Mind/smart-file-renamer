@@ -1,0 +1,11 @@
+[project]
+name = "smart-file-renamer"
+version = "0.1.0"
+description = "Smart music file renamer"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mutagen>=1.47.0",
+    "python-slugify>=8.0.4",
+    "rapidfuzz>=3.14.1",
+]
