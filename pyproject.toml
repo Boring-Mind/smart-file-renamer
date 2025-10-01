@@ -9,3 +9,9 @@ dependencies = [
     "python-slugify>=8.0.4",
     "rapidfuzz>=3.14.1",
 ]
+
+[dependency-groups]
+dev = [
+    "isort>=6.0.1",
+    "ruff>=0.13.2",
+]
